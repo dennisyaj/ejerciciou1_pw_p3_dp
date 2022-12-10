@@ -5,16 +5,32 @@
 }
 
 .botones {
-    width: 305px;
+
+    padding: 25px;
+    align-content: center;
+
 }
 
 .botones button {
-    width: 3git00px;
+    width: 300px;
+    padding: 25px;
+    margin: 20px auto;
+}
+
+.central {
+    align-content: center;
+    width: 605px;
+}
+
+.central button {
+    text-align: center;
+    width: 300;
     padding: 25px;
     margin: 20px auto;
 }
 
 .formulario {
+    text-align: center;
     width: 900px;
     border: double black;
     margin: 15px auto;

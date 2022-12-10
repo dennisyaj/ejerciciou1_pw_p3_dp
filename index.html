@@ -18,10 +18,15 @@
             <h2 id="texto-inicial" class="texto">Seleccione el Pokémon correcto</h2>
             <img id="imagen" src="../img/pnegro.jpg" alt="">
             <div class="botones">
+
                 <button id="boton1"
                     onclick="document.getElementById('imagen').src = comprobar(false)">keldeo-ordinary</button>
-                <button id="boton2" onclick="document.getElementById('imagen').src = comprobar(false)">drilbur</button>
-                <button id="boton3" onclick="document.getElementById('imagen').src = comprobar(false)">ninjask</button>
+                <div class="central">
+                    <button id="boton2"
+                        onclick="document.getElementById('imagen').src = comprobar(false)">drilbur</button>
+                    <button id="boton3"
+                        onclick="document.getElementById('imagen').src = comprobar(false)">ninjask</button>
+                </div>
                 <button id="boton4" onclick="document.getElementById('imagen').src = comprobar(true)">excadrill</button>
             </div>
             <label class="texto" id="respuesta" for=""></label>
