@@ -1,0 +1,34 @@
+.texto {
+    background-color: #0000ff;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botones {
+    width: 305px;
+}
+
+.botones button {
+    width: 3git00px;
+    padding: 25px;
+    margin: 20px auto;
+}
+
+.formulario {
+    width: 900px;
+    border: double black;
+    margin: 15px auto;
+    background: #E59866;
+}
+
+#perdedor {
+    color: red;
+}
+
+#ganador {
+    color: yellow;
+}
+
+#texto-inicial {
+    color: black;
+}

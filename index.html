@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/funciones.js"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header></header>
+    <nav></nav>
+    <section>
+        <div class="formulario">
+            <h2 id="texto-inicial" class="texto">Seleccione el Pokémon correcto</h2>
+            <img id="imagen" src="../img/pnegro.jpg" alt="">
+            <div class="botones">
+                <button id="boton1"
+                    onclick="document.getElementById('imagen').src = comprobar(false)">keldeo-ordinary</button>
+                <button id="boton2" onclick="document.getElementById('imagen').src = comprobar(false)">drilbur</button>
+                <button id="boton3" onclick="document.getElementById('imagen').src = comprobar(false)">ninjask</button>
+                <button id="boton4" onclick="document.getElementById('imagen').src = comprobar(true)">excadrill</button>
+            </div>
+            <label class="texto" id="respuesta" for=""></label>
+            <div>
+                <button onclick="document.getElementById('imagen').src = reiniciar()">Reiniciar</button>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+
+</html>
